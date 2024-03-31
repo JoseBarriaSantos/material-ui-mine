@@ -666,6 +666,7 @@ const Tooltip = React.forwardRef(function Tooltip(inProps, ref) {
       <PopperComponent
         as={PopperComponentProp ?? Popper}
         placement={placement}
+        disablePortal={true}
         anchorEl={
           followCursor
             ? {
